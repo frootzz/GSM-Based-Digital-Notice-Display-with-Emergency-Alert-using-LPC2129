@@ -76,7 +76,7 @@ void GSM_TRANSMIT(char *s)
     UART0_STRING("AT+CMGF=1\r\n");
     delay_milliseconds(1000);
 
-    UART0_STRING("AT+CMGS=\"+919381058662\"\r\n");
+    UART0_STRING("AT+CMGS=\"+91<PHONE NUMBER>\"\r\n");
     delay_milliseconds(1000);
 
     
